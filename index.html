@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+    <title>Meg_portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neuton:300,400,700,800" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+</script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+  <section id='loader_sec'>
+        <div class="pre-container">          
+            <div id="loader"></div>
+        </div>
+        <h4>Loading</h4>
+  </section>
+  <div class="main-container">
+        
+  <section class="sec_1">
+    <nav class="header_nav">
+        <a href="#" class="logo_box">
+            <img src="./img/2.png" alt="Logo" class="logo"/>
+        </a>
+        <ul class="menu">
+            <li class='menu_item'>who</li>
+            <li class='menu_item'>work</li>
+            <li class='menu_item'>Say Hi</li>
+        </ul>        
+    </nav>
+    <div class="header_title inner_container">
+        <h1 class="header_title_first">Designer & Front-end Developer <br /> from Warsaw, Poland.</h1>
+        <h2 class="header_title_second">Hello, I'm Meg! I design and code beautifully simple things, and I love what I do.</h2>
+    </div>
+    <div class="header_bottom">
+        <div class="scroll">
+            <p>Scroll or die</p>
+        </div>   
+        <div class="menu_social">             
+            <svg class="menu_social-icon" onclick="window.open('https://www.linkedin.com/in/margaretsta', '_blank');">
+                <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+            </svg>
+            <svg class="menu_social-icon" onclick="window.open('https://github.com/megfan', '_blank');">
+                <use xlink:href="./img/sprite.svg#icon-github"></use>
+            </svg>
+        </div>  
+    </div>
+    
+    
+  </section>
+  <section class="sec_2 inner_container">
+      <div class="about" id="sec_2">
+        <div class="deco_line"></div>
+        <div class="deco_title">About</div>
+        <div class="about_content">
+            <div class="about_content_box">
+                <div class="about_text">
+                    <h1 class="about_h1" >
+                        Constantly moving...
+                    </h1>
+                    <p>
+                        Hi! I'm Meg, frontend developer & graphic designer from Warsaw.
+                        Over the past eight years, I've had the pleasure of working with a wide variety of brands across the entertainment, automotive and financial industries.
+                        agencies, consulted for startups,
+                        and collaborated with talented people to create digital products for both business and consumer use.
+                        I'm quietly confident, naturally curious, and perpetually improving my chops.
+                        I design and develop websites and apps with a focus on usability and simple design.
+                    </p>
+                </div>
+                <div class="btn_about">
+                    <div class="btn_item" onclick="window.open('./img/M.StaszewskaRESUME.pdf', '_blank');">View Resume &raquo;</div>
+                    <div class="btn_item" onclick="window.open('https://www.linkedin.com/in/margaretsta' , '_blank');" >View on LinkedIn &raquo;</div>
+                </div> 
+            </div>
+            <div class="about_image">
+                <div class="about_image-cover" data-aos="reveal-right" data-aos-duration="1950" data-aos-delay="100"></div>
+                <div class="about_image_me"></div>
+            </div> 
+        </div>                        
+      </div>
+  </section>
+
+  <div class="sec_3 inner_container">
+
+      <div class="work">
+        <div class="deco_line sec3"></div>
+        <div class="deco_title sec3_text">Recent Work</div>
+        <div class="about_text">
+            <h1 class="about_h1">
+                Here are a few recent projects.
+            </h1>
+        </div>   
+        <div class="work_card ">
+            <div class="project" id="spax">
+                <div class="project__card">
+                    <img src="./img/spax1.png" alt="spax" onclick="window.open('https://megfan.github.io/SPA_with_REACT-REDUX/');" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"> 
+                    <img src="./img/spax2.png" id="spax_small" alt="spax" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                </div>
+                <div class="project__detail">                 
+                    <h2 class="project__title">Single Page App</h2>
+                    <small class="project__category">ReactJS / Redux / Redux-form / Sass</small>
+                    <p>Single Page Aplication for searching pictures from public NASA API</p>   
+                    <a href="https://github.com/megfan/SPA_with_REACT-REDUX" target="_blank">View Code</a>   
+                </div>
+            </div>
+            <div class="project" id="Fiskator">
+                <div class="project__card">
+                    <img src="./img/Fiskator1.png" alt="Fiskator" onclick="window.open('https://fakturownia.pl/fiskator');" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"> 
+                    <img src="./img/Fiskator2.png" id="Fiskator_small" alt="fiskator" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">                    
+                </div>
+                <div class="project__detail">                 
+                    <h2 class="project__title">Fiskator</h2>
+                    <small class="project__category">HTML5 / CSS / JS / jQuery</small>
+                    <p>One page project for Fakturownia.pl with parallax effects and responsive forms, made in CMS template</p>                                    
+                </div>
+            </div>
+            <div class="project" id="m11">
+                <div class="project__card">
+                    <img src="./img/m11A.png" alt="m11" onclick="window.open('https://github.com/megfan/m11/tree/master/m11_new');" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">                 
+                    <img src="./img/m11small.png" id="m11_small" alt="m11" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">                    
+                </div>
+                <div class="project__detail">                 
+                    <h2 class="project__title">m11</h2>
+                    <small class="project__category">ReactJS / React Router / Firebase / Firestore /
+                        <br/> Sass / animateScroll / swiftSlider</small>
+                    <p>Website made for m11 - Polish developer, based on React JS. Firebase is used for authentication and managing a realtime database. Currently under maintenance.</p> 
+                    <a href="https://github.com/megfan/m11/tree/master/m11_new" target="_blank">View Code</a>                   
+                </div>
+            </div>
+            <div class="project" id="ReactQuiz">
+                <div class="project__card">
+                    <img src="./img/g1.png" alt="React_Quiz" id="ReactQuiz_img" onclick="window.open('https://megfan.github.io/React_Quiz/#/');" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">    
+                    <img src="./img/g1a.png" id="ReactQuiz_small" alt="reactQuiz" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">    
+                </div>
+                <div class="project__detail one_detail">                                    
+                    <h2 class="project__title">React Quiz</h2>
+                    <small class="project__category">ReactJS / React Router / API Fetching / Sass / animateScroll</small>
+                    <p>A multiple choice quiz made in ReactJS as a final project at Coders Lab bootcamp. It contains 20 questions about Java Script and React.</p>
+                    <a href="https://github.com/megfan/React_Quiz" target="_blank">View Code</a>
+                </div>
+                
+            </div>
+            <div class="project" id="PiX">
+                <div class="project__card">
+                    <img src="./img/PiX1.png" alt="PiX" onclick="window.open('https://megfan.github.io/PixaBay_Finder/');" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">   
+                    <img src="./img/PiX2.png" id="PiX_small" alt="pix" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">                                       
+                </div>
+                <div class="project__detail">                 
+                    <h2 class="project__title">Pixabay Finder</h2>
+                    <small class="project__category">ReactJS / Material UI / RDialog box / PixaBay API / Axios
+                    </small>
+                    <p>In this project I used React along with Material UI to build an image finder application that uses the PixaBay API to fetch images based on a query string. I also implemented a Dialog box from Material UI to view the large image.</p>
+                    <a href="https://github.com/megfan/PixaBay_Finder" target="_blank">View Code</a>
+                </div>
+            </div>    
+            <div class="project" id="NaHalna">
+                <div class="project__card">
+                    <img src="./img/g2.png" alt="NaHalna" onclick="window.open('https://megfan.github.io/NaHalna_project/');" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">   
+                    <img src="./img/g2a.png" id="NaHalna_small" alt="nahalna" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">                                       
+                </div>
+                <div class="project__detail">                 
+                    <h2 class="project__title">NaHalna</h2>
+                    <small class="project__category">HTML5 / SASS / JS / jQuery / Scroll Magic</small>
+                    <p>This is a one page webpage made for NaHalna - graphic designer. I created it mainly for learning purposes. It uses CSS Grid, Scroll Magic, jQuery and gallery section made in Java SCript. I also included Font Awesome and Google Fonts. Website is fully responsive.</p>
+                    <a href="https://github.com/megfan/NaHalna_project" target="_blank">View Code</a>
+                </div>
+            </div> 
+            <div class="project" id="Advanced CSS Course">
+                <div class="project__card">
+                    <img src="./img/g4.png" alt="CSSCourse" onclick="window.open('https://megfan.github.io/Advanced_CSS_Course/');" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">   
+                    <img src="./img/g4a.png" id="CSSCourse_small" alt="CSSCourse" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">                                       
+                </div>
+                <div class="project__detail">                 
+                    <h2 class="project__title">Advanced CSS Course</h2>
+                    <small class="project__category">HTML5 / SASS / CSS</small>
+                    <p>A simple one page website made as a complementing my knowledge in the CSS and SASS fields.</p>
+                    <a href="https://github.com/megfan/Advanced_CSS_Course" target="_blank">View Code</a>
+                </div>
+            </div>   
+</div>
+        </div>
+      </div>
+  </section>
+  <section class="sec_4 inner_container">
+        <div class="experience">
+            <div class="deco_line"></div>
+            <div class="deco_title">Work</div>
+            <div class="experience_text">
+                <h1 class="experience_h1">
+                    Working experience
+                </h1>
+            </div>
+            <div class="experience_content">
+                <div class="exp_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="exp_box-company">
+                        <h2>Fakturownia.pl</h2>
+                        <div class="exp_box-date">
+                            2018 - present
+                        </div>
+                    </div>
+                    <div class="exp_box-title">
+                        <h2>FRONT-END DEVELOPER & DESIGNER</h2>
+                        <a href="https://fakturownia.pl/" target="_blank">www.fakturownia.pl</a>
+                    </div>
+                </div>
+                <div class="exp_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="exp_box-company">
+                        <h2>Coders Lab</h2>
+                        <div class="exp_box-date">
+                                2017 - 2018
+                        </div>
+                    </div>
+                    <div class="exp_box-title">
+                        <h2>GRAPHIC DESIGNER</h2>
+                        <a href="https://coderslab.pl/pl/" target="_blank">www.coderslab.pl</a>
+                    </div>
+                </div>
+                <div class="exp_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="exp_box-company">
+                        <h2>CLOS BROTHERS</h2>
+                        <div class="exp_box-date">
+                            2015 - 2016
+                        </div>
+                    </div>
+                    <div class="exp_box-title">
+                        <h2>WEB DESIGNER</h2>
+                        <a href="https://www.closbrothers.pl/#!/pl/idea" target="_blank">www.closbrothers.pl</a>
+                    </div>
+                </div>
+                <div class="exp_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="exp_box-company">
+                        <h2>Institute of Media Monitoring</h2>
+                        <div class="exp_box-date">
+                            2014 - 2015
+                        </div>
+                    </div>
+                    <div class="exp_box-title">
+                        <h2>ART DIRECTOR</h2>
+                        <a href="https://www.imm.com.pl/english/" target="_blank">www.imm.com.pl</a>
+                    </div>
+                </div>
+                <div class="exp_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="exp_box-company">
+                        <h2>GRANATOWI</h2>
+                        <div class="exp_box-date">
+                            2013 - 2014
+                        </div>
+                    </div>
+                    <div class="exp_box-title">
+                        <h2>GRAPHIC DESIGNER</h2>
+                        <a href="https://granatowi.pl/" target="_blank">www.granatowi.pl</a>
+                    </div>
+                </div>
+                <div class="exp_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="exp_box-company">
+                        <h2>MAKATA</h2>
+                        <div class="exp_box-date">
+                            2010 - 2013
+                        </div>
+                    </div>
+                    <div class="exp_box-title">
+                        <h2>STUDIO ASSISTANT</h2>
+                        <a href="https://makata.com.pl/" target="_blank">www.makata.com.pl</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+  </section>
+  <section class="sec_5 inner_container">
+    <div class="skills inner_container">
+        <div class="deco_line"></div>
+        <div class="deco_title">Technical Skills</div>
+        <div class="skills_container">
+            <ul class="skills_list">                
+                <li class='list_item'>Java Script</li>
+                <li class='list_item'>ECmaScript 6</li>  
+                <li class='list_item'>React</li>
+                <li class='list_item'>Redux</li>                          
+            </ul>
+            <ul class="skills_list sec_list">
+                <li class='list_item'>jQuery</li>
+                <li class='list_item'>CSS / SASS</li>
+                <li class='list_item'>HTML / HTML5</li>
+                <li class='list_item'>Web Design</li>              
+            </ul>
+            <ul class="skills_list sec_list">
+                <li class='list_item'>Adobe Illustrator</li>
+                <li class='list_item'>Adobe Photoshop</li>
+                <li class='list_item'>Adobe After Effect</li>
+                <li class='list_item'>Adobe Indesign</li>
+            </ul>
+        </div>          
+    </div>
+  </section>  
+  
+  <section class="sec_6 inner_container">
+        <div class="contact inner_container">
+            <div class="deco_line"></div>
+            <div class="deco_title">Contact</div>
+            <div class="about_text">
+                <h1 class="contact_h1">
+                    Uncover the potential of your project.
+                </h1>
+                <p class="contact_text">
+                    You can reach me via email at <span>megfa@yahoo.com</span>.
+                </p>
+            </div>
+            <div class="btn_about">
+                <div class="btn_item resume"><a href="mailto:megfa@yahoo.com">Say Hi &raquo;</a></div>
+            </div>  
+        </div>
+  </section>
+  <section class="sec_7 inner_container">
+        <footer>
+            <div class="social_box">             
+                <svg class="icon" onclick="window.open('https://www.linkedin.com/in/margaretsta', '_blank');">
+                    <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                </svg>
+                <svg class="icon" onclick="window.open('https://github.com/megfan', '_blank');">
+                    <use xlink:href="./img/sprite.svg#icon-github"></use>
+                </svg>     
+                <svg class="icon" onclick="window.open('http://megfoto.wixsite.com/mfantom', '_blank');">
+                    <use xlink:href="./img/sprite.svg#icon-image"></use>
+                </svg>
+            </div>
+            <div class="footer_box">
+                <span class="footer__text">Copyright© 2018 Meg Fantom</span>
+            </div>
+        </footer>
+  </section>
+    <div class="container">
+        <h5 id="containerTXT1">DESIGN</h5>
+        <h5 id="containerTXT2">GRAPHIC</h5>
+        <h5 id="containerTXT3">CODE</h5>
+    </div>
+</div>
+
+    <!-- <script src='3D-Interactive-Image-Hover-Effect-With-jQuery-CSS3-hover3d/source/js/jquery.hover3d.js'></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/app.js"></script>
+</body>
