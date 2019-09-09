@@ -159,7 +159,7 @@ body{
 
 /* -----BCK------ */
 .container{
-    background-color: var(--dark-primary);
+    background-color: var(--dark-ter);
     width: 100%;
     height: 100%;
     max-width: 100%;
@@ -173,7 +173,7 @@ body{
     transition: all .6s;
 }
 .container.color1{
-    background-color: var(--dark-middle);
+    background-color: var(--dark-primary);
 }
 .container.color2{
     background-color: var(--dark-sec);
@@ -199,6 +199,7 @@ body{
 #containerTXT1{
     top: 25%;
     left: -120vw;
+    color:var(--dark-primary);
 }
 #containerTXT2{
     left: 0;
@@ -423,6 +424,7 @@ nav{
     position: relative;
     margin-right: 20rem;
     margin-left: 10rem;
+    background-color: var(--dark-primary)
 }
 .about_image_me{
     background-image: url(../img/1.png);

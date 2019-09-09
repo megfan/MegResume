@@ -67,6 +67,14 @@ if (window.innerWidth < 1280){
 
 var controller = new ScrollMagic.Controller();
 
+var headerMagic1 = new ScrollMagic.Scene({
+    triggerElement: '.menu_social',
+    duration: "500%",
+    triggerHook: 0.2
+})
+.setClassToggle('.container', 'color1')
+.addTo(controller);
+
 var headerMagic2 = new ScrollMagic.Scene({
     triggerElement: '.btn_item',
     duration: "500%",
