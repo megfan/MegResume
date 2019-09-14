@@ -770,7 +770,7 @@ footer{
     .btn_item{margin-bottom: 2rem;}
     .project{flex-direction: column;margin: 20px 0;}
     .project__card{width: 100%;}
-    .project__detail{margin-left: 0; margin-top: 10px;}
+    .project__detail{margin-left: 0; margin-top: 10px; width: 100%;}
     .project__detail p{width: 100%;}
     #Fiskator .project__card{width: 100%;}
     [id$='_small']{display: none;}
